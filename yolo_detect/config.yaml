@@ -1,0 +1,20 @@
+video:
+  source: 0           # 摄像头索引、视频文件路径或 RTSP URL
+  fps_limit: 10       # 每秒最多处理帧数
+
+model:
+  path: "yolov8n.pt"  # 模型文件（首次运行自动下载）
+  confidence: 0.5
+  device: "cpu"       # "cpu" 或 "cuda"
+
+storage:
+  output_file: "detections/records.jsonl"
+  max_memory_records: 500   # 内存中保留的最近记录数
+
+api:
+  host: "0.0.0.0"
+  port: 5000
+
+logging:
+  level: "INFO"
+  file: "app.log"

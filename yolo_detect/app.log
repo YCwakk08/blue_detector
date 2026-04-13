@@ -1,0 +1,15 @@
+2026-03-04 13:14:50 [INFO] main: 启动 YOLO 视频检测系统
+2026-03-04 13:14:50 [INFO] api: API 服务已启动: http://0.0.0.0:5000
+2026-03-04 13:14:50 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://28.0.0.1:5000
+2026-03-04 13:14:50 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-04 13:14:50 [INFO] video_reader: 视频源已打开: 0
+2026-03-04 13:14:51 [INFO] detector: 加载模型: yolov8n.pt
+2026-03-04 13:14:55 [INFO] detector: 模型加载完成
+2026-03-04 13:14:55 [INFO] detector: 检测线程启动
+2026-03-04 13:15:51 [INFO] main: 收到停止信号，正在退出...
+2026-03-04 13:15:51 [INFO] video_reader: 视频读取线程已停止
+2026-03-04 13:15:51 [INFO] detector: 检测线程已停止
+2026-03-04 13:15:52 [INFO] main: 系统已停止，共处理 569 帧
